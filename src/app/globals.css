@@ -24,3 +24,10 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@layer components {
+  .emoji {
+    @apply transition-transform duration-300 ease-out;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+}
