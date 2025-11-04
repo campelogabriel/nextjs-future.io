@@ -83,7 +83,7 @@ function Title() {
             }}
             className="text-gray-900 text-center text-xl mt-2 hover:cursor-pointer hover:underline"
           >
-            Enviar foto <span>📷</span>
+            Continuar
           </span>
         </div>
       ) : (
