@@ -4,10 +4,16 @@ import handleDownload from "../utils/handleDownload";
 
 function Result() {
   return (
-    <div className="absolute z-50 rounded-3xl border flex flex-col gap-8 justify-center items-center border-gray-200 shadow  top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-1/2 h-3/4 bg-white">
+    <div className="absolute z-50 rounded-2xl border flex flex-col gap-8 justify-center items-center border-gray-200 shadow  top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-1/2 h-3/4 bg-white">
       <text className="text-2xl italic text-black font-bold">
         💥 Imagem gerada com sucesso! 💥
       </text>
+      <span
+        onClick={() => {}}
+        className="bg-white p-0.5 border rounded-sm hover:cursor-pointer absolute top-3 right-4.5 shadow z-20"
+      >
+        ❌
+      </span>
       <img
         src={"photo.jpg"}
         className=" max-w-60 max-h-60 shadow border rounded "
